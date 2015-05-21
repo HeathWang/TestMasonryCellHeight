@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HWTestTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    HWTestTableViewController *testTableVC = [HWTestTableViewController new];
+    self.window.rootViewController = testTableVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

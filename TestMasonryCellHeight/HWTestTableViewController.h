@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HWTestTableViewController.h
 //  TestMasonryCellHeight
 //
 //  Created by Heath on 15/5/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HWTestTableViewController : UIViewController
 
 @end
-
