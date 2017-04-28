@@ -18,10 +18,6 @@
 
 @implementation HWTestHeightCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
-
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
@@ -38,12 +34,10 @@
         [self.lblTitle mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.left.equalTo(@20);
             make.right.equalTo(@-20);
-            make.height.equalTo(@22);
         }];
         
         [self.lblBody mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.width.equalTo(self.lblTitle);
-            make.left.equalTo(self.lblTitle);
+            make.left.right.equalTo(self.lblTitle);
             make.top.mas_equalTo(self.lblTitle.mas_bottom).offset(10);
             make.bottom.equalTo(@-20);
         }];

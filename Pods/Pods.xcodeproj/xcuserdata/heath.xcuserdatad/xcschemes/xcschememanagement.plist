@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Masonry.xcscheme</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<key>Pods-TestMasonryCellHeight.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>233E28A2E87707B750142F0E</key>
+		<key>1081CE734AA4105672EC04D27E04981C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6672F5141A3737168DAB1DD6</key>
+		<key>5109A33BA19DCB68EF18D521015E3E09</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3C437A3CD407AC549E87130</key>
+		<key>F4470F6C374041B83BEEDF6A3058204E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

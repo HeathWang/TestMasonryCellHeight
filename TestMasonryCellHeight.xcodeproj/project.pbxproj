@@ -15,7 +15,7 @@
 		7E4ADB8B1B0DE3BF00ED5F95 /* HWTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4ADB8A1B0DE3BF00ED5F95 /* HWTestTableViewController.m */; };
 		7E4ADB8E1B0DE56700ED5F95 /* HWTestHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4ADB8D1B0DE56700ED5F95 /* HWTestHeightCell.m */; };
 		7E4ADB911B0DE5F100ED5F95 /* RJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4ADB901B0DE5F100ED5F95 /* RJModel.m */; };
-		C6AE04C170928C71196BD60F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E4CF73D59398BA95226675 /* libPods.a */; };
+		A9845F2E590D138F70D0AB8D /* libPods-TestMasonryCellHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE8BCFAB504C88FDBE024F9 /* libPods-TestMasonryCellHeight.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C7E5AA62FB4EA40D6AC4FF4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1AE8BCFAB504C88FDBE024F9 /* libPods-TestMasonryCellHeight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMasonryCellHeight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE830D63FD774B0D2BDEB4 /* Pods-TestMasonryCellHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMasonryCellHeight.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMasonryCellHeight/Pods-TestMasonryCellHeight.release.xcconfig"; sourceTree = "<group>"; };
+		6E7DEA9B80000343E012DB66 /* Pods-TestMasonryCellHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMasonryCellHeight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMasonryCellHeight/Pods-TestMasonryCellHeight.debug.xcconfig"; sourceTree = "<group>"; };
 		7E4ADB601B0DE19900ED5F95 /* TestMasonryCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMasonryCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4ADB641B0DE19900ED5F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E4ADB651B0DE19900ED5F95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,8 +48,6 @@
 		7E4ADB8D1B0DE56700ED5F95 /* HWTestHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTestHeightCell.m; sourceTree = "<group>"; };
 		7E4ADB8F1B0DE5F100ED5F95 /* RJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJModel.h; sourceTree = "<group>"; };
 		7E4ADB901B0DE5F100ED5F95 /* RJModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJModel.m; sourceTree = "<group>"; };
-		A9E4CF73D59398BA95226675 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEDFEE182FD7E68ACE190723 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6AE04C170928C71196BD60F /* libPods.a in Frameworks */,
+				A9845F2E590D138F70D0AB8D /* libPods-TestMasonryCellHeight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,31 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05BC2CC9180B7AF571950C02 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DEDFEE182FD7E68ACE190723 /* Pods.debug.xcconfig */,
-				1C7E5AA62FB4EA40D6AC4FF4 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		73F0C214EC19C2B765B849B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A9E4CF73D59398BA95226675 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7E4ADB571B0DE19900ED5F95 = {
 			isa = PBXGroup;
 			children = (
 				7E4ADB621B0DE19900ED5F95 /* TestMasonryCellHeight */,
 				7E4ADB7C1B0DE19900ED5F95 /* TestMasonryCellHeightTests */,
 				7E4ADB611B0DE19900ED5F95 /* Products */,
-				05BC2CC9180B7AF571950C02 /* Pods */,
-				73F0C214EC19C2B765B849B2 /* Frameworks */,
+				87FBA8D34109E9D6A396059F /* Pods */,
+				E540D45B0935DE932A243818 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +133,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		87FBA8D34109E9D6A396059F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DEA9B80000343E012DB66 /* Pods-TestMasonryCellHeight.debug.xcconfig */,
+				64CE830D63FD774B0D2BDEB4 /* Pods-TestMasonryCellHeight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E540D45B0935DE932A243818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8BCFAB504C88FDBE024F9 /* libPods-TestMasonryCellHeight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,11 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E4ADB831B0DE19900ED5F95 /* Build configuration list for PBXNativeTarget "TestMasonryCellHeight" */;
 			buildPhases = (
-				CDE5B500CEA9A72D0B6BB707 /* Check Pods Manifest.lock */,
+				A0AFD236395BF46970D2FC6D /* [CP] Check Pods Manifest.lock */,
 				7E4ADB5C1B0DE19900ED5F95 /* Sources */,
 				7E4ADB5D1B0DE19900ED5F95 /* Frameworks */,
 				7E4ADB5E1B0DE19900ED5F95 /* Resources */,
-				1161DDDE57025F2F75A08369 /* Copy Pods Resources */,
+				01CA12840918B34BEEC8029B /* [CP] Embed Pods Frameworks */,
+				5889BF7158460DECAB3527B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,34 +249,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1161DDDE57025F2F75A08369 /* Copy Pods Resources */ = {
+		01CA12840918B34BEEC8029B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMasonryCellHeight/Pods-TestMasonryCellHeight-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDE5B500CEA9A72D0B6BB707 /* Check Pods Manifest.lock */ = {
+		5889BF7158460DECAB3527B8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMasonryCellHeight/Pods-TestMasonryCellHeight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AFD236395BF46970D2FC6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -405,7 +421,7 @@
 		};
 		7E4ADB841B0DE19900ED5F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEDFEE182FD7E68ACE190723 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6E7DEA9B80000343E012DB66 /* Pods-TestMasonryCellHeight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestMasonryCellHeight/Info.plist;
@@ -416,7 +432,7 @@
 		};
 		7E4ADB851B0DE19900ED5F95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C7E5AA62FB4EA40D6AC4FF4 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 64CE830D63FD774B0D2BDEB4 /* Pods-TestMasonryCellHeight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestMasonryCellHeight/Info.plist;
